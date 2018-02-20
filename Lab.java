@@ -11,7 +11,7 @@ public class Lab {
     
     Scanner Input= new Scanner(System.in);
     System.out.println("Hi, give me your name");
-     String name = input.next();
+     
     
    
   }
