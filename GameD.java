@@ -8,8 +8,11 @@
 import java.util.Scanner;
 
 //my class is public and is given the title to the app
+  
 
-public class GameDriver{    
+
+public class GameD{
+//This is the start    
     public static void main(String[] args){
     
     Scanner input = new Scanner(System.in);
