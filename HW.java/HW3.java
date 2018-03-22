@@ -15,16 +15,16 @@
       System.out.println("Please enter in a monthly savings amount.");
 //declaring all variables and there fixed data      
       double S = input.nextDouble();
-      double I = 0.00417 + 1 ;
+      double I = 1 + 0.00417;
       
-      double one = S * I; 
-      double two = S + one *  I;
-      double three = S + two *  I;
-      double four = S + three *  I;
-      double five = S + four * I;
-      double six = S + five * I;
+      double one = (S) * (I);
+      double two = (100 + one) * (I);
+      double three = (100 + two) * (I);
+      double four = (100 + three) * (I);
+      double five = (100 + four) * (I);
+      double six = (100 + five) * (I);
  //println will display the answer for the data entered.
-      System.out.println("Here is your savings over first months " + six);
+      System.out.println(" Here is your savings over six months " + six);
       
       
       
