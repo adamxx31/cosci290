@@ -1,0 +1,29 @@
+/* Adam Martinez
+   Co Sci 290 
+   Class Objects:Zombie text adventure game
+*/  
+
+ //Here is a list of objects for my text RPG
+  
+  
+  
+  public class Motorcycle
+  public Motorcycle
+  
+  public class Car
+  public Car
+  
+  public class Knife 
+  public Knife
+  
+  public class Gun
+  public Gun
+  
+  pubilc classFood
+  public Food
+ 
+  public class Water
+  Public Water
+  
+  Flashlight
+  

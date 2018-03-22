@@ -1,0 +1,20 @@
+/* Adam Martinez
+   Co Sci 290
+   HW3 Text Summary 
+   Collaborators on the is are Francisco and Cesar.
+*/   
+
+
+Summary
+
+The name of our RPG text based game is BrainDead. This game takes place on Catalina Island right off the coast of California.
+The player is a party goer invited for a Great Gatsby Style Mansion Party. The guest all think its a huge party that they won 
+tickets to. It is a Party but disguised it is really a scientific test. A chemical biological company wants to conduct a real 
+world live experiment. All beverages have been laced with a top secret compound that turns in subjects into ragging flesh eating
+monsters. As the player for whatever reason you unaffected. You wake up with a massive hangover but something is wrong.
+
+Your find yourself all alone in a room with a balcony overlooking the island and courtyard to find a gruesome scene of these flesh 
+eating monsters. As the panic and adrenaline release in your body you spaz out. Then you come to your senses. You need to get off the island
+over in the distance some 3 miles away you see the docks full of boats. Thats your ticket out. But you must fight, run, and hide to 
+survive and make it to the docks. No one can save you. You can only save yourself. Make it to the boat and survive the boat ride to LA 
+and you win.
