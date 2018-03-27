@@ -23,8 +23,10 @@
       double four = S + three *  I;
       double five = S + four * I;
       double six = S + five * I;
+      
+    
  //println will display the answer for the data entered.
-      System.out.println("Here is your savings over first months " + six);
+      System.out.println("Here is your savings over six months " + six);
       
       
       
