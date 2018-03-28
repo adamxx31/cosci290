@@ -16,40 +16,47 @@
 
 import java.util.Scanner;
 //name of class
-public class Lab11Midterm{
+public class Mid{
 
   public static void main(String[] args){
     
     Scanner input = new Scanner(System.in);
     
     //identifying all every digit individually 
+    //palin the number enter
     int palin;
     int ldigit; 
     int fdigit; 
     int quote;
     int mdigit;
     int secdigit;
+    int fourth;
     //prompt user for a five digit number
     System.out.println("Enter in a five digit number");
       palin = input.nextInt();
+   
+    ldigit = palin % 10; //get the remainder - which is the last digit
+    palin = palin / 10; //cut off the last digit
     
-    ldigit = palin % 5;
-    secdigit = ldigit;
-    fdigit = ldigit;  
+   
+    fourth = palin % 10; //get the remainder - which is the last digit
+    palin = palin / 10; //cut off the last digit
     
-    // there are many different variations i can enter to get the program running to include short cuts.
-    //I know this if the 1st digit is = to the 2nd , the 4th and the 5th it is pallinddrome
-    //Also if 1st digit and last digit are same and 2nd digit and the fourth digit also equal one another you have
-    //Palindrome numnber
-    //The first and last digit can match and the inner three digit must all remain the same.
-    //Also a five digit number all the dame digit will give you a palindrom
-    //conditions to find out if number is palindrome
-    //
-    if(fdigit == ldigit && secdigit == ldigit){
-      System.out.println("the number " + palin + " is palindrome");
+    mdigit = palin % 10; //get the remainder- which is fourth
+    palin = palin / 10; //cut off the last digit
+    
+    secdigit = palin % 10; //get the remainder- which is third digit
+    palin = palin /10;  // 
+    
+    fdigit =palin % 10;
+    palin = palin / 10;
+    
+    
+    if(fdigit == ldigit && secdigit == fourth){
+      System.out.println("the number is palindrome");
     }   // you will get one of two answers for your digit 
     else 
-      System.out.println("the number " + palin + " is not palindrome");
+      System.out.println("the number  is not palindrome");
   
  
   }
