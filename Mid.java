@@ -51,12 +51,14 @@ public class Mid{
     fdigit =palin % 10;
     palin = palin / 10;
     
+   
+    
     
     if(fdigit == ldigit && secdigit == fourth){
       System.out.println("the number is palindrome");
     }   // you will get one of two answers for your digit 
     else 
-      System.out.println("the number  is not palindrome");
+      System.out.println("the number is not palindrome");
   
  
   }
