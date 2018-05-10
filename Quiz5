@@ -1,0 +1,25 @@
+/* Adam Martinez
+   Co Sci 290
+   5/10/18
+*/
+import java util.Scanner;
+
+//App will be public and is given a name
+public class Quiz5{
+
+//Start of the program
+    public static void main(String[] args){
+
+    Scanner input = new scanner (System.in);
+    
+    System.out.println(Please enter your name);
+    
+    
+
+
+
+
+
+
+}
+}
