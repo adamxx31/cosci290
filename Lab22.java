@@ -32,16 +32,28 @@ public static void main(String[] args){
      }//end of loop
        System.out.println(" ");
        System.out.println("MAX NUMBER =" + max + ".");
-     
-      max = counts[0];
+  
+  int min = counts[0];
+  int indexOfMax = 0;
+    for (int i = 1; i < counts.length; i++) {
+      if(counts[i] < min) {
+        min = counts[i];
+        indexOfMax = i;
+      }
+    }
+  
+   System.out.println(" MIN NUMBER = " + min);
+  
+  
+  
+ /*     max = counts[0];
      int indexOfMax = 0;
      for (int i = 1; i < counts.length; i++){
        if(counts[i] > max) {
          max = counts[i];
          indexOfMax = i;
        }
-     }//end of loop
-  System.out.println("MIN NUMBER =" + indexOfMax);
+ */    }//end of loop
   
 }
-}
+
