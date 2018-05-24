@@ -15,7 +15,7 @@ public static void main(String[] args){
   
    //declaring the for loop
    for (int i = 0; i < 200; i++){
-     num = (int)(Math.random() * 14) + 0;
+     num = (int)(Math.random() * 15) + 0;
      System.out.println(num);
      counts[num] = counts[num] + 1;
    }
