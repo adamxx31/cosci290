@@ -23,6 +23,7 @@ public static void main(String[] args){
      System.out.println(num);
      counts[num] = counts[num] + 1;
    }
+  //this code will check to see if the number is even and divisible by 2
  int Even = counts[0];
      for (int i = 1; i < counts.length; i++) {
        if (counts[i] % 2 ==0) {
@@ -31,7 +32,7 @@ public static void main(String[] args){
      }//end of loop
        System.out.println(" ");
        System.out.println("Even =" + Even + ".");
-  
+ //this code will check for odd numbers 
   int Odd = counts[0];
     for (int i = 1; i < counts.length; i++) {
       if(counts[i] % 2 != 0) {
